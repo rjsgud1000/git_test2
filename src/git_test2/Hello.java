@@ -14,6 +14,8 @@ public class Hello {
 	private static final String BOLD = "\u001B[1m";
 	private static final String RAINBOW = "\u001B[38;5;";
 	private static final String RAINBOW_RESET = "\u001B[0m";
+	private static final String UNDERLINE = "\u001B[4m";
+
 	
 	private final List<Greeting> greetings = List.of(
 		new Greeting("안녕하세요", "Korean", "🇰🇷"),
