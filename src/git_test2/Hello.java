@@ -46,7 +46,7 @@ public class Hello {
 	}
 	
 	private void printAllGreetings() {
-		System.out.println(YELLOW + "🌍 Greetings from around the world:" + RESET);
+		System.out.println(YELLOW + "🌍 Greetings from around the world!:" + RESET);
 		System.out.println();
 		
 		greetings.forEach(greeting -> {
