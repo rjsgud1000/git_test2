@@ -12,6 +12,7 @@ public class Hello {
 	private static final String GREEN = "\u001B[32m";
 	private static final String MAGENTA = "\u001B[35m";
 	private static final String BOLD = "\u001B[1m";
+	private static final String UNDERLINE = "\u001B[4m";
 	
 	private final List<Greeting> greetings = List.of(
 		new Greeting("안녕하세요", "Korean", "🇰🇷"),
